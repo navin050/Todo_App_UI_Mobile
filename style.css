@@ -1,0 +1,210 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main_body {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 1282px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: auto;
+  /* position: absolute; */
+}
+
+.head {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #7b7b7b29;
+  opacity: 1;
+  padding: 16px 230px 15px 12px;
+}
+
+.task {
+  top: 0px;
+  left: 0px;
+  width: 69px;
+  height: 29px;
+  text-align: left;
+  font: normal normal bold 24px/29px Inter;
+  letter-spacing: 0px;
+  color: #424242;
+}
+
+.list {
+  top: 0px;
+  left: 69px;
+  width: 49px;
+  height: 29px;
+  text-align: left;
+  font: normal normal bold 24px/29px Inter;
+  letter-spacing: 0px;
+  color: #00a5ec;
+}
+
+.icon {
+  top: 80px;
+  left: 160px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  /* background: #00A5EC 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  color: #00a5ec;
+  margin: auto;
+}
+
+.child {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 336px;
+  height: 360px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+h4 {
+  padding-left: 30px;
+  color: #00a5ec;
+  font-size: 20px;
+}
+
+.list-items {
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+label {
+  color: #424242;
+}
+
+.label1 {
+  color: #c2c2c2;
+  text-decoration: line-through;
+}
+
+input {
+  transform: scale(1.5);
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #00a5ec;
+}
+
+hr {
+  color: #f7f7f7;
+}
+
+.checked {
+  color: #c2c2c2;
+}
+
+.popup {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 1282px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.6;
+
+  position: absolute;
+  margin: auto;
+}
+
+.main {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-self: center;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 1282px;
+}
+
+.newtask {
+  top: 255px;
+  left: 10px;
+  width: 340px;
+  height: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #67676729;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 100;
+  position: absolute;
+}
+
+.popup_task {
+  top: 277px;
+  left: 28px;
+  width: 340px;
+  height: 21px;
+  text-align: left;
+  font: normal normal medium 18px/21px Inter;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.cancle {
+  float: right;
+  padding-right: 20px;
+}
+
+.textbox {
+  width: 300px;
+  height: 46px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  opacity: 1;
+  transform: initial;
+  margin-right: initial;
+  margin: auto 20px;
+  font-size: 1.5em;
+}
+
+.btn {
+  top: 431px;
+  left: 150px;
+  width: 180px;
+  height: 48px;
+  background: #00a5ec 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  opacity: 1;
+  transform: initial;
+  margin-right: 20px;
+  transform: initial;
+  cursor: pointer;
+  float: right;
+  font-size: 1.5em;
+}
+
+.icon1 {
+  float: left;
+  top: 97px;
+  left: 20px;
+  width: 8px;
+  height: 7px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.back {
+  width: 37px;
+  color: #424242;
+}
